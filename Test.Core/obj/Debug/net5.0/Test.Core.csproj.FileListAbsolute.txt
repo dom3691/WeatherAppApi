@@ -1,0 +1,12 @@
+C:\Users\James\source\repos\Test.Core\bin\Debug\net5.0\Test.Core.deps.json
+C:\Users\James\source\repos\Test.Core\bin\Debug\net5.0\Test.Core.dll
+C:\Users\James\source\repos\Test.Core\bin\Debug\net5.0\Test.Core.pdb
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.AssemblyInfo.cs
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.dll
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\refint\Test.Core.dll
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\Test.Core.pdb
+C:\Users\James\source\repos\Test.Core\obj\Debug\net5.0\ref\Test.Core.dll
