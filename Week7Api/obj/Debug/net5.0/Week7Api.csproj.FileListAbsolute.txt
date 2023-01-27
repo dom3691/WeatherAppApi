@@ -1,0 +1,6 @@
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.AssemblyInfo.cs
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Week7Api\obj\Debug\net5.0\Week7Api.MvcApplicationPartsAssemblyInfo.cache

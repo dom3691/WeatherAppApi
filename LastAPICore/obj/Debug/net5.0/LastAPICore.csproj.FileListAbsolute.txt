@@ -1,0 +1,5 @@
+C:\Users\James\source\repos\LastAPICore\obj\Debug\net5.0\LastAPICore.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\LastAPICore\obj\Debug\net5.0\LastAPICore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\LastAPICore\obj\Debug\net5.0\LastAPICore.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\LastAPICore\obj\Debug\net5.0\LastAPICore.AssemblyInfo.cs
+C:\Users\James\source\repos\LastAPICore\obj\Debug\net5.0\LastAPICore.csproj.CoreCompileInputs.cache

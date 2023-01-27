@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bo7HvnAUPE+wTOlTZq7YrWjW3yhUTp1TyJIExkQGCUyvs8SFe8cw807ACZOxuR62Kyu6P1Qvs7RJYfnTmpqb1w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\James\\source\\repos\\NightAPI\\NightAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\James\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
