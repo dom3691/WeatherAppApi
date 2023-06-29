@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "F6g5h9HmajEbrVy6pyXU1EtQtGKqiH93IpWufmIOUb0gjUY1ASoMrJAp6DKPS1rUNlNMhbVrG+I8KaK4Vs1YNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\James\\source\\repos\\CandidateImage.DataAccess\\CandidateImage.DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\James\\.nuget\\packages\\awssdk.core\\3.7.105.9\\awssdk.core.3.7.105.9.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.4\\awssdk.extensions.netcore.setup.3.7.4.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\awssdk.s3\\3.7.103.16\\awssdk.s3.3.7.103.16.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\James\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

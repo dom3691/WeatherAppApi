@@ -1,0 +1,12 @@
+C:\Users\James\source\repos\NightAPI.Core\bin\Debug\net5.0\NightAPI.Core.deps.json
+C:\Users\James\source\repos\NightAPI.Core\bin\Debug\net5.0\NightAPI.Core.dll
+C:\Users\James\source\repos\NightAPI.Core\bin\Debug\net5.0\NightAPI.Core.pdb
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.AssemblyInfo.cs
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.dll
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\refint\NightAPI.Core.dll
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\NightAPI.Core.pdb
+C:\Users\James\source\repos\NightAPI.Core\obj\Debug\net5.0\ref\NightAPI.Core.dll

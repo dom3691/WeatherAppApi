@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LHhFmUeUHbZLYSkaGPbu1VMRlNFrH6w7bF4HxsP5PIM=",
+  "Source": "CreateCandidate",
+  "BasePath": "_content/CreateCandidate",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

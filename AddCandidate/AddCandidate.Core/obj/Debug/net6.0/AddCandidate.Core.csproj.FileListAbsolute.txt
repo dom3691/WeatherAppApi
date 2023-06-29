@@ -1,0 +1,12 @@
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.AssemblyInfo.cs
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\bin\Debug\net6.0\AddCandidate.Core.deps.json
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\bin\Debug\net6.0\AddCandidate.Core.dll
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\bin\Debug\net6.0\AddCandidate.Core.pdb
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.dll
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\refint\AddCandidate.Core.dll
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\AddCandidate.Core.pdb
+C:\Users\James\source\repos\AddCandidate\AddCandidate.Core\obj\Debug\net6.0\ref\AddCandidate.Core.dll

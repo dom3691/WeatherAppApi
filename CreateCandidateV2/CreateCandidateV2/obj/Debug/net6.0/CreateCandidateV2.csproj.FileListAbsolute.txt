@@ -1,0 +1,7 @@
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.AssemblyInfo.cs
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\James\source\repos\CreateCandidateV2\CreateCandidateV2\obj\Debug\net6.0\CreateCandidateV2.MvcApplicationPartsAssemblyInfo.cache
