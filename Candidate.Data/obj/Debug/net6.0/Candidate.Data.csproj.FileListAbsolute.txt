@@ -1,0 +1,14 @@
+C:\Users\James\source\repos\Candidate.Data\bin\Debug\net6.0\Candidate.Data.deps.json
+C:\Users\James\source\repos\Candidate.Data\bin\Debug\net6.0\Candidate.Data.runtimeconfig.json
+C:\Users\James\source\repos\Candidate.Data\bin\Debug\net6.0\Candidate.Data.dll
+C:\Users\James\source\repos\Candidate.Data\bin\Debug\net6.0\Candidate.Data.pdb
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.AssemblyInfo.cs
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.dll
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\refint\Candidate.Data.dll
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.pdb
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\Candidate.Data.genruntimeconfig.cache
+C:\Users\James\source\repos\Candidate.Data\obj\Debug\net6.0\ref\Candidate.Data.dll

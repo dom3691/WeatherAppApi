@@ -1,0 +1,12 @@
+C:\Users\James\source\repos\FirstTest.Core\bin\Debug\net5.0\FirstTest.Core.deps.json
+C:\Users\James\source\repos\FirstTest.Core\bin\Debug\net5.0\FirstTest.Core.dll
+C:\Users\James\source\repos\FirstTest.Core\bin\Debug\net5.0\FirstTest.Core.pdb
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.AssemblyInfo.cs
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.dll
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\refint\FirstTest.Core.dll
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\FirstTest.Core.pdb
+C:\Users\James\source\repos\FirstTest.Core\obj\Debug\net5.0\ref\FirstTest.Core.dll

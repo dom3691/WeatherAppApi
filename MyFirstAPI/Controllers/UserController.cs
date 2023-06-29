@@ -5,7 +5,7 @@ using MyFirstAPI.Models;
 using UserTest.Dto;
 using UserTest.Interface;
 
-namespace MyFirstAPI.Controllers
+namespace MyFirstAPI.Controllers 
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -28,9 +28,18 @@ namespace MyFirstAPI.Controllers
                 LastName = user.LastName,
                 Email = user.Email
             };
-            var result = await _userservice.AddUser(user);
-            return Ok(newUser);
+
+
+            var result = await _userservice.AddUser(newUser);
+
+            if (result != null)
+            {
+                return Ok(user);
+            }
+
+                return BadRequest("User Not Created");
         }
+
 
         [HttpGet]
         public async Task<IActionResult> GetUser()

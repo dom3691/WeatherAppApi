@@ -1,0 +1,8 @@
+C:\Users\James\source\repos\Cgpa\obj\Debug\Cgpa.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Cgpa\obj\Debug\Cgpa.csproj.SuggestedBindingRedirects.cache
+C:\Users\James\source\repos\Cgpa\obj\Debug\Cgpa.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Cgpa\bin\Debug\Cgpa.exe.config
+C:\Users\James\source\repos\Cgpa\bin\Debug\Cgpa.exe
+C:\Users\James\source\repos\Cgpa\bin\Debug\Cgpa.pdb
+C:\Users\James\source\repos\Cgpa\obj\Debug\Cgpa.exe
+C:\Users\James\source\repos\Cgpa\obj\Debug\Cgpa.pdb

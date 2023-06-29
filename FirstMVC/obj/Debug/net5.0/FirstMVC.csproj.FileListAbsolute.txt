@@ -1,0 +1,8 @@
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.AssemblyInfo.cs
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.RazorAssemblyInfo.cache
+C:\Users\James\source\repos\FirstMVC\obj\Debug\net5.0\FirstMVC.RazorAssemblyInfo.cs

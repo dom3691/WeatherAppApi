@@ -1,0 +1,14 @@
+C:\Users\James\source\repos\PostCandidateCore\bin\Debug\net6.0\PostCandidateCore.deps.json
+C:\Users\James\source\repos\PostCandidateCore\bin\Debug\net6.0\PostCandidateCore.dll
+C:\Users\James\source\repos\PostCandidateCore\bin\Debug\net6.0\PostCandidateCore.pdb
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.AssemblyInfo.cs
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.dll
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\refint\PostCandidateCore.dll
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.pdb
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\ref\PostCandidateCore.dll
+C:\Users\James\source\repos\PostCandidateCore\bin\Debug\net6.0\PostCandidateCore.runtimeconfig.json
+C:\Users\James\source\repos\PostCandidateCore\obj\Debug\net6.0\PostCandidateCore.genruntimeconfig.cache

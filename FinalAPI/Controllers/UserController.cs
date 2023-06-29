@@ -37,7 +37,7 @@ namespace FinalAPI.Controllers
             return Ok(result);
         }
         
-        [HttpGet]
+          [HttpGet]
         public async Task<IActionResult> GetUser()
         {
            
@@ -45,7 +45,7 @@ namespace FinalAPI.Controllers
             return Ok(users);
         }
 
-        //[HttpGet]
+         //[HttpGet]
         //public async Task<IActionResult> GetAllTransaction()
         //{
 

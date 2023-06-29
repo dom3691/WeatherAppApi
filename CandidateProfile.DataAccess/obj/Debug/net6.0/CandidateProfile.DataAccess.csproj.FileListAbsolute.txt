@@ -1,0 +1,12 @@
+C:\Users\James\source\repos\CandidateProfile.DataAccess\bin\Debug\net6.0\CandidateProfile.DataAccess.deps.json
+C:\Users\James\source\repos\CandidateProfile.DataAccess\bin\Debug\net6.0\CandidateProfile.DataAccess.dll
+C:\Users\James\source\repos\CandidateProfile.DataAccess\bin\Debug\net6.0\CandidateProfile.DataAccess.pdb
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.AssemblyInfo.cs
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.dll
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\refint\CandidateProfile.DataAccess.dll
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\CandidateProfile.DataAccess.pdb
+C:\Users\James\source\repos\CandidateProfile.DataAccess\obj\Debug\net6.0\ref\CandidateProfile.DataAccess.dll

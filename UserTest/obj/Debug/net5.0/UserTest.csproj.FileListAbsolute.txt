@@ -1,11 +1,14 @@
 C:\Users\James\source\repos\UserTest\bin\Debug\net5.0\UserTest.deps.json
 C:\Users\James\source\repos\UserTest\bin\Debug\net5.0\UserTest.dll
 C:\Users\James\source\repos\UserTest\bin\Debug\net5.0\UserTest.pdb
+C:\Users\James\source\repos\UserTest\bin\Debug\net5.0\User.Data.dll
+C:\Users\James\source\repos\UserTest\bin\Debug\net5.0\User.Data.pdb
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.csproj.AssemblyReference.cache
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.AssemblyInfoInputs.cache
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.AssemblyInfo.cs
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.csproj.CopyComplete
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.dll
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\refint\UserTest.dll
 C:\Users\James\source\repos\UserTest\obj\Debug\net5.0\UserTest.pdb

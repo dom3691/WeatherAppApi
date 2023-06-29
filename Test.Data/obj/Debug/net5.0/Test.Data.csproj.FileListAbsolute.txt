@@ -1,0 +1,15 @@
+C:\Users\James\source\repos\Test.Data\bin\Debug\net5.0\Test.Data.deps.json
+C:\Users\James\source\repos\Test.Data\bin\Debug\net5.0\Test.Data.runtimeconfig.json
+C:\Users\James\source\repos\Test.Data\bin\Debug\net5.0\Test.Data.runtimeconfig.dev.json
+C:\Users\James\source\repos\Test.Data\bin\Debug\net5.0\Test.Data.dll
+C:\Users\James\source\repos\Test.Data\bin\Debug\net5.0\Test.Data.pdb
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.AssemblyInfo.cs
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.dll
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\refint\Test.Data.dll
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.pdb
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\Test.Data.genruntimeconfig.cache
+C:\Users\James\source\repos\Test.Data\obj\Debug\net5.0\ref\Test.Data.dll
