@@ -13,11 +13,10 @@ namespace CastleHillPetGame
         public int Happiness { get; set; }
         public int MaxHunger { get; }
         public int MaxHappiness { get; }
-        public string Dog { get; set; }
 
         public Pet(string name, int maxHunger, int maxHappiness)
         {
-            Name = Dog;
+            Name = name;
             MaxHunger = maxHunger;
             MaxHappiness = maxHappiness;
             Hunger = 2; // Starting hunger level
