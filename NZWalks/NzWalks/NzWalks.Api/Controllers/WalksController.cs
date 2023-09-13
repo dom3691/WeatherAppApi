@@ -25,7 +25,7 @@ namespace NzWalks.Api.Controllers
         //POST: /api/walks
         [HttpPost]
         [ValidateModel]
-        public async Task<IActionResult> Create([FromBody] AddWalkRequestDto addWalkRequestDto)
+        public async Task<ActionResult> Create([FromBody] AddWalkRequestDto addWalkRequestDto)
         {
 
             //Map Dto to Domain Model
@@ -39,7 +39,7 @@ namespace NzWalks.Api.Controllers
 
         //GET ALL WALKS
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
+        public async Task<ActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
             [FromQuery] string? sortBy, [FromQuery] bool? isAscending, [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 1000)
         {
             var walkDomainModel = await walkRepository.GetAllAsync(filterOn, filterQuery, sortBy, isAscending ?? true
@@ -53,7 +53,7 @@ namespace NzWalks.Api.Controllers
         //Get Walk by Id
         [HttpGet]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> GetById(Guid id)
+        public async Task<ActionResult> GetById(Guid id)
         {
             var walkDomainModel = await walkRepository.GetByIdAsync(id);
 
@@ -70,7 +70,7 @@ namespace NzWalks.Api.Controllers
         [ValidateModel]
         [Route("{id:Guid}")]
 
-        public async Task<IActionResult> UpdateWalkAsync([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto)
+        public async Task<ActionResult> UpdateWalkAsync([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto)
         {
 
             //Map Dto to Domain Model 
@@ -89,7 +89,7 @@ namespace NzWalks.Api.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> DeleteAsync([FromRoute] Guid id)
+        public async Task<ActionResult> DeleteAsync([FromRoute] Guid id)
         {
             var deletedWalkDomainModel = await walkRepository.DeleteAsync(id);
             if (deletedWalkDomainModel == null)
