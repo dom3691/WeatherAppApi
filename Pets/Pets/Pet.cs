@@ -14,6 +14,8 @@ namespace Pets
         public string Species { get; set; }
         public bool IsAwake { get; set; }
         private int ExperiencePoints { get; set; }
+        public int HungerLevel { get; set; } = 0;
+        public int HappinessLevel { get; set; } = 100;
 
         public Pet(string petName, int petAge, string petSpecies, bool petIsAwake)
         {
@@ -42,6 +44,7 @@ namespace Pets
             WriteLine($"{FullName} is now eating{foodName}.");
         }
 
-
+        private const int MaxHunger = 10; // Maximum hunger level before pet refuses to interact.
+        private const int MaxHappiness = 100; // Maximum happiness level.
     }
 }

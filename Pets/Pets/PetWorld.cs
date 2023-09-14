@@ -10,6 +10,8 @@ namespace Pets
     public class PetWorld
     {
         private List<Pet> petCollection;
+        private const int MaxHunger = 10; // Maximum hunger level before pet refuses to interact.
+        private const int MaxHappiness = 100; // Maximum happiness level.
 
         public PetWorld()
         {
@@ -25,7 +27,8 @@ namespace Pets
  |_|    \___| \__||___/ /_/   \_\| .__/ | .__/ 
                                  |_|    |_|    
 ");
-            WriteLine("Welcome to the Pet App!");
+            WriteLine("WELCOME TO CASTLE GAMING PET APP!");
+            WriteLine("");
             WriteLine("");
 
             //LEO THE CAT
@@ -33,24 +36,26 @@ namespace Pets
             petCollection.Add(leoTheCat);
             //Ths causes an error because "ExperiencePoints" is private:
             //LeoTheCat.ExperiencePoints = 10;
-            WriteLine("> Pet 1");
+            WriteLine(">>>> PET 1 <<<<");
             leoTheCat.Greet();
             leoTheCat.Eat("Some Dry food");
+            WriteLine("");
             WriteLine("");
 
             //JUNIOR THE PARROT
             Pet juniorTheParrot = new Pet("Junior", 50, "Parrot", false);
             petCollection.Add(juniorTheParrot);
-            WriteLine(">Pet 2");
+            WriteLine(">>>>Pet 2<<<<");
             juniorTheParrot.Greet();
             juniorTheParrot.Eat("a worm");
             juniorTheParrot.Sleep();
+            WriteLine("");
             WriteLine("");
 
             //CALLIE THE UNICORN
             Pet callieTheUnicorn = new Pet("Callie", 25, "Unicorn", true);
             petCollection.Add(callieTheUnicorn);
-            WriteLine(">Pet 3");
+            WriteLine(">>>>Pet 3<<<<");
             juniorTheParrot.Greet();
             juniorTheParrot.Eat("a rainbw");
             juniorTheParrot.Sleep();
@@ -197,6 +202,60 @@ namespace Pets
                             foodName = "Dry cat food";
                             break;
                     }
+
+                    //check if the pet likes the food and apply happiness and hunger effects
+                    int happinessEffect = 0;
+                    int hungerEffect = 0;
+
+                    if (selectedPet.Species == "Dog")
+                    {
+                        if (foodName == "Bacon Snack")
+                        {
+                            happinessEffect= 3;
+                            hungerEffect = 3;
+                        }
+                        else if (foodName == "Dry dog food")
+                        {
+                            happinessEffect= 4;
+                            hungerEffect = 2;
+                        }
+
+                        //Add similar checks for the food types for dogs.
+                    }
+
+                    else if (selectedPet.Species == "Cat")
+                    {
+                        if (foodName == "Bacon Snack")
+                        {
+                            happinessEffect = 3;
+                            hungerEffect = 3;
+                        }
+                        else if (foodName == "Dry cat food")
+                        {
+                            happinessEffect = -4;
+                            hungerEffect = 2;
+                        }
+                        //Add similar checks for other food types for cats 
+                    }
+                    //Add Similar checks for other pet species 
+
+                    //apply the effects to the pet's happiness and hunger levels 
+
+                    selectedPet.HappinessLevel += happinessEffect;
+                    selectedPet.HungerLevel += hungerEffect;
+
+                    //Ensure happiness level does not exceed the maximum 
+                    if (selectedPet.HappinessLevel > MaxHappiness)
+                        selectedPet.HappinessLevel = MaxHappiness;
+
+                    //Ensure hunger level does not go above the maximum.
+                    if(selectedPet.HungerLevel > MaxHunger) 
+                        selectedPet.HungerLevel= MaxHunger;
+
+                    WriteLine($"{selectedPet.FullName} is interacting.");
+                    WriteLine($"{selectedPet.FullName}'s happiness level: {selectedPet.HappinessLevel}");
+                    WriteLine($"{selectedPet.FullName}'s hunger level: {selectedPet.HungerLevel}");
+
 
                     selectedPet.Eat(foodName);
                     WriteLine($"{selectedPet.FullName} has been fed {foodName}.");
