@@ -39,5 +39,15 @@ namespace CastleHillPetGame
         {
             // Handle stat updates over time (e.g., increase hunger, decrease happiness)
         }
+
+        internal bool CanPlayWith(Pet pet2)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void PlayWith(Pet pet2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

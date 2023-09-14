@@ -99,22 +99,6 @@ namespace CastleHillPetGame
 
         public void ViewPetStats(string name)
         {
-            public void ViewPetStats(string name)
-            {
-                Pet petToView = pets.FirstOrDefault(p => p.Name == name);
-                if (petToView != null)
-                {
-                    Console.WriteLine($"Name: {petToView.Name}");
-                    Console.WriteLine($"Hunger: {petToView.Hunger}/{petToView.MaxHunger}");
-                    Console.WriteLine($"Happiness: {petToView.Happiness}/{petToView.MaxHappiness}");
-                }
-                else
-                {
-                    Console.WriteLine($"{name} not found in your collection.");
-
-                }
-
-            }
         }
     }
 }
