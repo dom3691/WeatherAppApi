@@ -203,7 +203,7 @@ namespace Pets
                             break;
                     }
 
-                    //check if the pet likes the food and apply happiness and hunger effects
+                    // Check if the pet likes the food and apply happiness and hunger effects.
                     int happinessEffect = 0;
                     int hungerEffect = 0;
 
@@ -211,18 +211,16 @@ namespace Pets
                     {
                         if (foodName == "Bacon Snack")
                         {
-                            happinessEffect= 3;
+                            happinessEffect = 3;
                             hungerEffect = 3;
                         }
                         else if (foodName == "Dry dog food")
                         {
-                            happinessEffect= 4;
+                            happinessEffect = -4;
                             hungerEffect = 2;
                         }
-
-                        //Add similar checks for the food types for dogs.
+                        // Add similar checks for other food types for dogs.
                     }
-
                     else if (selectedPet.Species == "Cat")
                     {
                         if (foodName == "Bacon Snack")
@@ -235,30 +233,25 @@ namespace Pets
                             happinessEffect = -4;
                             hungerEffect = 2;
                         }
-                        //Add similar checks for other food types for cats 
+                        // Add similar checks for other food types for cats.
                     }
-                    //Add Similar checks for other pet species 
+                    // Add similar checks for other pet species.
 
-                    //apply the effects to the pet's happiness and hunger levels 
-
+                    // Apply the effects to the pet's happiness and hunger levels.
                     selectedPet.HappinessLevel += happinessEffect;
                     selectedPet.HungerLevel += hungerEffect;
 
-                    //Ensure happiness level does not exceed the maximum 
+                    // Ensure happiness level does not exceed the maximum.
                     if (selectedPet.HappinessLevel > MaxHappiness)
                         selectedPet.HappinessLevel = MaxHappiness;
 
-                    //Ensure hunger level does not go above the maximum.
-                    if(selectedPet.HungerLevel > MaxHunger) 
-                        selectedPet.HungerLevel= MaxHunger;
+                    // Ensure hunger level does not go above the maximum.
+                    if (selectedPet.HungerLevel > MaxHunger)
+                        selectedPet.HungerLevel = MaxHunger;
 
-                    WriteLine($"{selectedPet.FullName} is interacting.");
+                    WriteLine($"{selectedPet.FullName} has been fed {foodName}.");
                     WriteLine($"{selectedPet.FullName}'s happiness level: {selectedPet.HappinessLevel}");
                     WriteLine($"{selectedPet.FullName}'s hunger level: {selectedPet.HungerLevel}");
-
-
-                    selectedPet.Eat(foodName);
-                    WriteLine($"{selectedPet.FullName} has been fed {foodName}.");
                 }
                 else
                 {
@@ -296,24 +289,59 @@ namespace Pets
                 int interactionChoice;
                 if (int.TryParse(ReadLine(), out interactionChoice) && interactionChoice >= 1 && interactionChoice <= 5)
                 {
-                    switch (interactionChoice)
+                    int happinessEffect = 0;
+                    int hungerEffect = 0;
+
+                    // Check for valid interactions based on pet species and apply effects.
+                    switch (selectedPet.Species)
                     {
-                        case 1:
-                            selectedPet.Greet();
+                        case "Dog":
+                            switch (interactionChoice)
+                            {
+                                case 1: // Pet
+                                    happinessEffect = 3;
+                                    hungerEffect = 3;
+                                    break;
+                                case 2: // Rub Belly
+                                    happinessEffect = 3;
+                                    break;
+                                case 3: // Fetch
+                                    happinessEffect = -4;
+                                    hungerEffect = 2;
+                                    break;
+                                case 4: // Ignore
+                                    happinessEffect = -4;
+                                    hungerEffect = 2;
+                                    break;
+                                case 5: // Scold
+                                    happinessEffect = -4;
+                                    hungerEffect = 2;
+                                    break;
+                            }
                             break;
-                        case 2:
-                            WriteLine($"{selectedPet.FullName} enjoys belly rubs.");
+                        case "Cat":
+                            // Add similar switch cases for interactions with cats.
                             break;
-                        case 3:
-                            WriteLine($"{selectedPet.FullName} plays fetch.");
-                            break;
-                        case 4:
-                            WriteLine($"{selectedPet.FullName} feels ignored.");
-                            break;
-                        case 5:
-                            WriteLine($"{selectedPet.FullName} has been scolded.");
-                            break;
+                            // Add cases for other pet species.
                     }
+
+                    // Check and apply the effects to happiness and hunger levels.
+                    selectedPet.HappinessLevel += happinessEffect;
+                    selectedPet.HungerLevel += hungerEffect;
+
+                    // Ensure happiness level does not go below 0 and does not exceed the maximum.
+                    if (selectedPet.HappinessLevel < 0)
+                        selectedPet.HappinessLevel = 0;
+                    if (selectedPet.HappinessLevel > MaxHappiness)
+                        selectedPet.HappinessLevel = MaxHappiness;
+
+                    // Ensure hunger level does not go above the maximum.
+                    if (selectedPet.HungerLevel > MaxHunger)
+                        selectedPet.HungerLevel = MaxHunger;
+
+                    WriteLine($"{selectedPet.FullName} is interacting.");
+                    WriteLine($"{selectedPet.FullName}'s happiness level: {selectedPet.HappinessLevel}");
+                    WriteLine($"{selectedPet.FullName}'s hunger level: {selectedPet.HungerLevel}");
                 }
                 else
                 {
@@ -326,12 +354,121 @@ namespace Pets
             }
 
             WriteLine();
+
+            //WriteLine("Select a pet to interact with:");
+            //int i = 1;
+            //foreach (Pet pet in petCollection)
+            //{
+            //    WriteLine($"{i}. {pet.FullName}");
+            //    i++;
+            //}
+
+            //int petIndex;
+            //if (int.TryParse(ReadLine(), out petIndex) && petIndex >= 1 && petIndex <= petCollection.Count)
+            //{
+            //    Pet selectedPet = petCollection[petIndex - 1];
+            //    WriteLine("Select an interaction:");
+            //    WriteLine("1. Pet");
+            //    WriteLine("2. Rub Belly");
+            //    WriteLine("3. Fetch");
+            //    WriteLine("4. Ignore");
+            //    WriteLine("5. Scold");
+            //    int interactionChoice;
+            //    if (int.TryParse(ReadLine(), out interactionChoice) && interactionChoice >= 1 && interactionChoice <= 5)
+            //    {
+            //        int happinessEffect = 0;
+            //        int hungerEffect = 0;
+
+            //        switch (interactionChoice)
+            //        {
+            //            case 1:
+            //                selectedPet.Greet();
+            //                break;
+            //            case 2:
+            //                WriteLine($"{selectedPet.FullName} enjoys belly rubs.");
+            //                break;
+            //            case 3:
+            //                WriteLine($"{selectedPet.FullName} plays fetch.");
+            //                break;
+            //            case 4:
+            //                WriteLine($"{selectedPet.FullName} feels ignored.");
+            //                break;
+            //            case 5:
+            //                WriteLine($"{selectedPet.FullName} has been scolded.");
+            //                break;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        WriteLine("Invalid interaction choice.");
+            //    }
+            //}
+            //else
+            //{
+            //    WriteLine("Invalid pet selection.");
+            //}
+
+            //WriteLine();
         }
 
         private void AllowPetsToPlay()
         {
-            // Implement code to allow pets to play between themselves
-            WriteLine("Implement allowing pets to play between themselves.");
+            WriteLine("Select the first pet to play:");
+            int i = 1;
+            foreach (Pet pet in petCollection)
+            {
+                WriteLine($"{i}. {pet.FullName}");
+                i++;
+            }
+
+            int petIndex1;
+            if (int.TryParse(ReadLine(), out petIndex1) && petIndex1 >= 1 && petIndex1 <= petCollection.Count)
+            {
+                Pet pet1 = petCollection[petIndex1 - 1];
+
+                WriteLine("Select the second pet to play:");
+                i = 1;
+                foreach (Pet pet in petCollection)
+                {
+                    WriteLine($"{i}. {pet.FullName}");
+                    i++;
+                }
+
+                int petIndex2;
+                if (int.TryParse(ReadLine(), out petIndex2) && petIndex2 >= 1 && petIndex2 <= petCollection.Count)
+                {
+                    Pet pet2 = petCollection[petIndex2 - 1];
+
+                    // Check if the selected pets are different and allow them to play.
+                    if (pet1 != pet2)
+                    {
+                        // Implement rules for pet interactions here.
+                        // You can use a table similar to the one provided earlier for interaction effects.
+
+                        // Example: If both pets are dogs, they have +3 happiness and +3 hunger.
+
+                        // Update pet states based on the rules.
+                        // pet1.HappinessLevel += happinessEffectForPet1;
+                        // pet1.HungerLevel += hungerEffectForPet1;
+                        // pet2.HappinessLevel += happinessEffectForPet2;
+                        // pet2.HungerLevel += hungerEffectForPet2;
+
+                        WriteLine($"{pet1.FullName} and {pet2.FullName} are playing together!");
+                    }
+                    else
+                    {
+                        WriteLine("You can't select the same pet to play with itself.");
+                    }
+                }
+                else
+                {
+                    WriteLine("Invalid selection for the second pet.");
+                }
+            }
+            else
+            {
+                WriteLine("Invalid selection for the first pet.");
+            }
             WriteLine();
         }
 
