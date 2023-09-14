@@ -1,0 +1,15 @@
+C:\Users\James\source\repos\CAlculate\CAlculate\bin\Debug\net6.0\CAlculate.exe
+C:\Users\James\source\repos\CAlculate\CAlculate\bin\Debug\net6.0\CAlculate.deps.json
+C:\Users\James\source\repos\CAlculate\CAlculate\bin\Debug\net6.0\CAlculate.runtimeconfig.json
+C:\Users\James\source\repos\CAlculate\CAlculate\bin\Debug\net6.0\CAlculate.dll
+C:\Users\James\source\repos\CAlculate\CAlculate\bin\Debug\net6.0\CAlculate.pdb
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.AssemblyInfo.cs
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.dll
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\refint\CAlculate.dll
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.pdb
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\CAlculate.genruntimeconfig.cache
+C:\Users\James\source\repos\CAlculate\CAlculate\obj\Debug\net6.0\ref\CAlculate.dll

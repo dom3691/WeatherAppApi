@@ -1,0 +1,16 @@
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.exe
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.deps.json
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.runtimeconfig.json
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.runtimeconfig.dev.json
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.dll
+C:\Users\James\source\repos\Pets\Pets\bin\Debug\net5.0\Pets.pdb
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.AssemblyInfo.cs
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.dll
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\refint\Pets.dll
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.pdb
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\Pets.genruntimeconfig.cache
+C:\Users\James\source\repos\Pets\Pets\obj\Debug\net5.0\ref\Pets.dll

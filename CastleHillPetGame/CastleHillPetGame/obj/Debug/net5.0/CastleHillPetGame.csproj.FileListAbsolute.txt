@@ -1,0 +1,16 @@
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.exe
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.deps.json
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.runtimeconfig.json
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.runtimeconfig.dev.json
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.dll
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\bin\Debug\net5.0\CastleHillPetGame.pdb
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.csproj.AssemblyReference.cache
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.AssemblyInfoInputs.cache
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.AssemblyInfo.cs
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.dll
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\refint\CastleHillPetGame.dll
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.pdb
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\CastleHillPetGame.genruntimeconfig.cache
+C:\Users\James\source\repos\CastleHillPetGame\CastleHillPetGame\obj\Debug\net5.0\ref\CastleHillPetGame.dll

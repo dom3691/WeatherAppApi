@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleHillPetGame", "CastleHillPetGame\CastleHillPetGame.csproj", "{E26F26C3-E928-4992-82EB-E69C0D95D1DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E26F26C3-E928-4992-82EB-E69C0D95D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26F26C3-E928-4992-82EB-E69C0D95D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26F26C3-E928-4992-82EB-E69C0D95D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26F26C3-E928-4992-82EB-E69C0D95D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D777BE-3CFE-448E-B1C6-CF0572832E9B}
+	EndGlobalSection
+EndGlobal
