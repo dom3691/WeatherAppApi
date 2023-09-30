@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
+using TaskManager.Core.DTO;
+//using TaskManager.Core.DTOs;
+using TaskManager.Core.Interfaces;
 
-namespace TaskManager.Api.Controllers
+namespace TaskManager.API.Controllers
 {
+
     [Route("api/[controller]")]
     [Produces(MediaTypeNames.Application.Json)]
     [Consumes(MediaTypeNames.Application.Json)]

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Logging;
 using TaskManager.Core.DTO;
-using TaskManager.Core.DTOs;
+//using TaskManager.Core.DTOs;
 using TaskManager.Core.Interfaces;
 using TaskManager.Core.Models;
 

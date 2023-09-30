@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TaskManager.Core.DTOs;
+using TaskManager.Core.DTO;
+//using TaskManager.Core.DTOs;
 using TaskManager.Core.Models;
 
 namespace TaskManager.Core.Interfaces

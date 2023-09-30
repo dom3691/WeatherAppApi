@@ -1,16 +1,12 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Threading.Tasks;
+using TaskManager.Core.Interfaces;
 
 namespace TaskManager.Core.ExternalServices
 {
-    public class HttpClientCommandHandler
+    public class HttpClientCommandHandler : IHttpClientCommandHandler
     {
-
         private readonly HttpClient _client = new HttpClient();
 
         #region Api Request handlers
@@ -88,4 +84,3 @@ namespace TaskManager.Core.ExternalServices
         #endregion
     }
 }
-

@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace TaskManager.Core.DTOs
+namespace TaskManager.Core.DTO
 {
     public class CreateTaskDTO
     {
+        [Required]
         public string TaskName { get; set; } = string.Empty;
         [Required]
         public string TaskDescription { get; set; } = string.Empty;
