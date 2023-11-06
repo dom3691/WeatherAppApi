@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskManager.API</name>
+    </assembly>
+    <members>
+        <member name="M:TaskManager.API.Controllers.TasksController.GetAllTasks">
+            <summary>
+            Gets all tasks
+            </summary>
+            <returns>Return a json object of all tasks</returns>
+            <remarks>
+            sample:
+            
+            GET: http://localhost:5033/api/tasks
+            </remarks> 
+            <response code ="200">OK success </response>
+            <response code ="400"> BadRequest </response>
+            <response code ="404"> Not Found </response>
+            <response code ="500">Internal server error</response>
+        </member>
+        <member name="M:TaskManager.API.Controllers.TasksController.GetTaskById(System.String)">
+            <summary>
+            Get task by Id
+            </summary>
+            <param name="Id"></param>
+            <returns>Return a json object of a given task</returns>
+            <remarks>
+            sample:
+            
+            GET: http://localhost:5033/api/tasks/{Id}
+            </remarks> 
+            <response code ="200">OK success </response>
+            <response code ="400"> BadRequest </response>
+            <response code ="404"> Not Found </response>
+        </member>
+        <member name="M:TaskManager.API.Controllers.TasksController.CreateTasks(TaskManager.Core.DTO.CreateTaskDTO)">
+            <summary>
+            Create task
+            </summary>
+            <param name="request"></param>
+            <returns>No content</returns>
+            <remarks>
+            sample:
+            
+            POST: http://localhost:5033/api/tasks/CreateTask
+            </remarks> 
+            <response code ="201">created</response>
+            <response code ="400"> BadRequest </response>
+            <response code ="417"> Expectation Failed </response>
+            <response code ="500"> Internal Server Error </response>
+        </member>
+        <member name="M:TaskManager.API.Controllers.TasksController.DeleteTask(System.String)">
+            <summary>
+            Delete task by Id
+            </summary>
+            <param name="Id"></param>
+            <returns>No content</returns>
+            <remarks>
+            sample:
+            
+            DELETE: http://localhost:5033/api/tasks/DeleteTask{Id}
+            </remarks> 
+            <response code ="204"> No Content </response>
+            <response code ="400"> BadRequest </response>
+            <response code ="404"> Not Found </response>
+            <response code ="500"> Internal Server Error </response>
+        </member>
+    </members>
+</doc>
